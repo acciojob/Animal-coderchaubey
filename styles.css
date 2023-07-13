@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+ /* CSS styles */
+#photo-heading{
+	align:centre;
+	
+}
+    #animal-photos {
+  display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+/*   grid-template-rows: 1fr 1fr 1fr; */
+  gap: 20px;
+}
+
+.animal-photo {
+  border-radius: 10px;
+  margin: 0;
+}
